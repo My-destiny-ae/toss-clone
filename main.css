@@ -1,3 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    
+}
+p{
+    font-family: "Noto Sans KR";
+}
+a:visited{
+    color: #000;
+}
 .header{
     display: flex;
     height: 60px;
@@ -30,13 +44,42 @@
     font-weight: 700;
     line-height: 92.4px; /* 149.023% */
     display: flex;
-    width: 598.59px;
-    height: 184.8px;
+    /* width: 700px; */
+    /* height: 184.8px; */
     text-align: center;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
+    justify-content: center;
 }
 #sec1 {
     height: 100vh;
     background: url(tossbg.png) no-repeat;
     background-size: cover;
 }
+.btn-inner{
+    border-radius: 7px;
+    background: rgba(0, 12, 30, 0.80);
+    display: flex;
+    width: 108.89px;
+    height: 24px;
+    padding: 11px 15.8px 11px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: row;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appstore{
+    color: white;
+    /* font-size: large; */
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 버튼 간의 간격 조절 */
+    margin-top: 20px;
+}
+
