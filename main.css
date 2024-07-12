@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -9,31 +10,57 @@ a{
 p{
     font-family: "Noto Sans KR";
 }
-a:visited{
-    color: #000;
-}
 .header{
     display: flex;
     height: 60px;
     /* justify-content: center; */
     align-items: center;
-    
+    justify-content: space-between;
     background: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .head-list {
     display: flex;
-    gap: 30px;
+    gap: 30x;
     margin: 0px 0px 0px 300px;
+    
 }
 .head-list1 {
     display: flex;
-    gap: 30px;
+    padding-right: 200px;
 }
+/* .head-list P{
+    color: #4e5968;
+} */
 .logo{
     margin-left: 200px;
 }
+.a1{
+    padding: 12px 10px;
+    border-radius: 10px;
+    color: #4e5968;
+    color: #4E5968;
+    font-family: "Noto Sans KR";
+    font-size: 14.063px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 20px; /* 142.222% */
+}
 .li1{
     list-style: none;
+    padding: 0px 8px;
+    /* color: blue; */
+    color: #B0B8C1;
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 20px; /* 133.333% */
+}
+.a1:hover{
+    background-color: rgb(243, 244, 245);
 }
 .letter{
     color: #000;
@@ -83,3 +110,81 @@ a:visited{
     margin-top: 20px;
 }
 
+
+
+
+#sec2{
+    background-color: #f9fafb;
+    padding: 200px 0px;
+}
+.letter2{
+    color: #191F28;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-size: 29.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51.2px; /* 171.381% */
+    padding: 0px 0px 50px;
+}
+
+#sec3{
+    margin: 0px 24.5px;
+    padding: 260px 0px 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sec3-1{
+    width: 1272px;
+}
+.sec3-1-text{
+    padding: 0px 0px 0px 100px;
+}
+.home{
+    color: #3182F6;
+    font-family: "Noto Sans KR";
+    font-size: 26.141px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.4px; /* 139.247% */
+}
+.moneyLeftText{
+    color: #191F28;
+    font-family: "Noto Sans KR";
+    font-size: 46.875px;
+    width: fit-content;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 149.333% */
+    
+    
+}
+.mokup1{
+    position: absolute;
+    top: 260px;
+    left: 50vw;
+
+}
+.letter3{
+    width: fit-content;
+    color: #333D4B;
+    font-family: "Noto Sans KR";
+    font-size: 21.383px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.5px; /* 161.345% */
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: end; */
+    position: absolute;
+    top: 1252px;
+    left: 50vw;
+}
+#sec4{
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
